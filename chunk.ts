@@ -1,3 +1,5 @@
+//TODO: Convert this into an extended array module with chunk, count (with and without filter), reject, last, groupBy, pluck, none
+
 declare global {
   interface Array<T> {
     chunk(chunkSize: number): Array<Array<T>>;
